@@ -9,10 +9,9 @@ class Chef
 public:
     Chef();
     Chef(string);
-    virtual ~Chef();
+    ~Chef();
     void makeSalad();
     void makeSoup();
-    virtual string getName();
 protected:
     string _name;
 };

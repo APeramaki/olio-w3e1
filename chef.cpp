@@ -21,7 +21,3 @@ void Chef::makeSalad(){
 void Chef::makeSoup(){
     cout << "Chef " << _name << " makes soup" << endl;
 }
-
-string Chef::getName(){
-    return _name;
-}

@@ -8,7 +8,7 @@ class ItalianChef : public Chef
 public:
     ItalianChef();
     ItalianChef(string);
-    virtual ~ItalianChef();
+    ~ItalianChef();
 
     void makesPasta();
     string getName();
