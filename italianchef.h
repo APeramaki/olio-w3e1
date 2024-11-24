@@ -3,7 +3,7 @@
 
 #include "chef.h"
 
-class ItalianChef : public Chef
+class ItalianChef : private Chef
 {
 public:
     ItalianChef();
